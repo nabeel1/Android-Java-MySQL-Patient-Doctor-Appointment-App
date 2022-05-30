@@ -81,7 +81,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAzPVKnnDEM3Wtjg5AFwnTKlAdpp-OWW5Y" />
+            android:value="Add your Own Google API Key" />
 
         <service
             android:name=".Patient.service_appointmentReminder"
