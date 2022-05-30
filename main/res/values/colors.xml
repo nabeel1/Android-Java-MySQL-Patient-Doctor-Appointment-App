@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#214372</color>
+    <color name="appbarbackgroundcolor">#0c2d3a</color>
+    <color name="sidebarbackgroundcolor">#0c2d3a</color>
+    <color name="btnbackground">#3daedb</color>
+    <color name="hostellistbackgrount">#3daedb</color>
+    <color name="homesearchtxtbackground">#3daedb</color>
+    <color name="headingcolor">#0c2d3a</color>
+    <color name="background_material_dark">#cbc3c3</color>
+    <color name="background_material_light">#ffffff</color>
+    <color name="foreground_material_light">#f9f5f5</color>
+    <color name="transparent">#000900</color>
+    <color name="primary_text_material_dark">#000000</color>
+    <color name="text_color_secondary">#000000</color>
+    <color name="secondary_text_material_dark">#000000</color>
+    <color name="colorForeground">#000000</color>
+    <color name="headerBackground">#cc4021</color>
+    <color name="backbackground">#b5becc</color>
+
+    <color name="textColor">#000000</color>
+    <color name="errorColor">#fff</color>
+</resources>
