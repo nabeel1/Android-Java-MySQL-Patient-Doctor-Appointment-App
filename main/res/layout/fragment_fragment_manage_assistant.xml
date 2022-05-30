@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shahidhussain.assignemnt2.Doctor.fragment_manage_assistant">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backbackground"
+        tools:context="com.example.shahidhussain.assignemnt2.Doctor.fragment_doctor_appointment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shadow"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/assisstantlist"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="visible"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/addassistant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnshadow"
+                android:layout_marginTop="5dp"
+                android:text="Add Assistant"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</FrameLayout>

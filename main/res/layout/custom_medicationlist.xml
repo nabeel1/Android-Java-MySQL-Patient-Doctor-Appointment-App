@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shadow"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/disease"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:hint="Diasease"
+            android:textSize="15dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/symptoms"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:hint="Symptoms"
+            android:textSize="15dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/medicine"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:hint="Medicines"
+            android:textSize="15dp"
+            android:layout_weight="1" />
+        <EditText
+            android:id="@+id/doze"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:hint="Doze"
+            android:textSize="15dp"
+            android:layout_weight="1" />
+        <ImageView
+            android:id="@+id/deletemedication"
+            android:layout_width="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="40dp"
+            android:padding="6dp"
+            android:background="@drawable/shadow"
+            android:src="@drawable/cross"/>
+    </LinearLayout>
+</LinearLayout>

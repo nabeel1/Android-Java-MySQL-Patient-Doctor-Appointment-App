@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/searchdoctor"
+            android:title="Home" />
+        <item
+            android:id="@+id/forum"
+            android:icon="@drawable/forum"
+            android:visible="false"
+            android:title="Forum" />
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/report"
+            android:title="Submit Report" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/history"
+            android:visible="false"
+            android:title="History" />
+        <item
+            android:id="@+id/appointment"
+            android:icon="@drawable/appointment"
+            android:title="Appointment Status" />
+    </group>
+</menu>

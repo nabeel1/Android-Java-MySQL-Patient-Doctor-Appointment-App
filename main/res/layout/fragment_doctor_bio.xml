@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Patient.fragment_DoctorBio">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/abouticon"
+                android:padding="10dp"
+                android:text="About:" />
+            <TextView
+                android:id="@+id/abouttxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="textMultiLine"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="20dp"
+                android:text="About" />
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/qualification"
+                android:padding="10dp"
+                android:text="Qualification:" />
+            <TextView
+                android:id="@+id/qualificaiontxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="textMultiLine"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="20dp"
+                android:text="About" />
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/specialization"
+                android:padding="10dp"
+                android:text="Specialization:" />
+            <TextView
+                android:id="@+id/specializationtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="textMultiLine"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="20dp"
+                android:text="About" />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/time"
+                android:padding="10dp"
+                android:text="ExperieceYear:" />
+            <TextView
+                android:id="@+id/experieceyeartxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="textMultiLine"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="20dp"
+                android:text="About" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
